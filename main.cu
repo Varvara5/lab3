@@ -12,6 +12,8 @@
     }                                                                   \
 }
 
+//xuy
+
 // Ядро для деления строки матрицы на ведущий элемент
 __global__ void normalize_row(float* matrix, int n, int row, float pivot) {
     int col = threadIdx.x + blockIdx.x * blockDim.x;
